@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payroll-service
+server:
+  port: 8002
+
+grpc:
+  server:
+    port: 9211

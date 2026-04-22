@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://pg-37b54c8d-ramanb-c841.e.aivencloud.com:26226/defaultdb?sslmode=require
+    username: avnadmin
+    password:
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8087
